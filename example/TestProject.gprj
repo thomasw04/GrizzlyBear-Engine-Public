@@ -1,0 +1,9 @@
+[Project]
+EnvironmentType = Development;
+ProjectName = TestProject;
+ContentDirectory = content/;
+AssetDirectory = assets/;
+ConfigDirectory = config/;
+ModDirectory = mods/;
+CacheDirectory = cache/;
+LogDirectory = logs/;

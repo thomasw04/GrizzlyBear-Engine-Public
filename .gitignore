@@ -1,0 +1,38 @@
+
+#Basic file ignore
+
+**/bin/
+!libs/
+bin-int/
+profiling/
+
+*.log
+
+#Visual Studio specific file ignore
+
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+#Xcode specific file ignore
+
+**.xcworkspacedata
+**.plist
+**.pbxproj
+
+.DS_Store
+
+GrizzlyBear.xcworkspace/
+
+#Clion specific file ignore
+
+.idea/
+**.cmake
+cmake-build-debug/
+CMakeLists.txt
+.vscode/
+
+Makefile
+Makefile.in

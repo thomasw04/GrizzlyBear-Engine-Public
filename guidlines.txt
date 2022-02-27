@@ -1,0 +1,87 @@
+C++ coding convention
+
+Namespace:
+
+ - Usage: Static functions and the GrizzlyBear base namespace
+
+ - Naming: PascalCase
+
+Struct:
+
+ - Usage: Only used for "transfer types". All members are public,
+	  and methods should be used sparingly. 
+	  For example: MaterialProps is a collection of material properties.
+
+ - Naming: PascalCase
+
+ - Special case:
+        - On collections of variables, which would be initialized via a long initializer list, lazy init
+          may be applied: e.g. Test test; test.FIRST = 1; test.SECOND = 2; ...
+          For this case, as it was shown in the example, one should change the name of the variable
+          to uppercase without m_ in the beginning. 
+
+Class:
+
+ - Usage: Used for all kinds of enclosed systems. All member variables are private,
+	  but getters or setters are allowed. Use methods whereever you want.
+
+ - Naming: PascalCase
+
+Method:
+
+ - Usage: For all kinds of systems.
+ 
+ - Naming: snake_case
+
+ - Special case: 
+	- For getters -> get_varname() and for setters set_varname(value)
+ 	  In order to prevent naming collisions, always use m_VarName as member variable.
+		 
+	- If the getter gets a boolean then -> is_varname()
+
+	- For all "computing" functions use operation_object() -> e.g. replace_string()
+	  For multiple operations use operation_and_operation2_object() -> e.g. replace_and_convert_string()
+
+
+Function:
+
+ - Usage: Should be used very sparingly. Helper functions.
+
+ - Naming: Own namespace + snake_case
+
+Member Variables:
+
+ - Usage: Data storage
+ 
+ - Naming: m_VarName
+
+Static Variables:
+
+ - Usage: Static systems
+ 
+ - Naming: s_VarName
+
+Method or function parameters:
+
+ - Usage: -
+ 
+ - Naming: testParam
+
+Preprocessor Statements:
+
+ - Usage: Avoid when possible
+
+ - Naming: GRIZZLY_STATEMENT
+
+Enums:
+
+ - Usage: Only enum class
+
+ - Naming: class: EPascalCase; value: PascalCase
+
+Templates:
+
+ - Usage: Defined in the header as inline function
+
+ - Naming: snake_case
+
