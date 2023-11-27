@@ -1,6 +1,3 @@
 [submodule "libs/vcpkg"]
 	path = libs/vcpkg
 	url = https://github.com/microsoft/vcpkg.git
-[submodule "projects/LuaJit/luajit"]
-	path = projects/LuaJit/luajit
-	url = https://github.com/LuaJIT/LuaJIT.git

@@ -1,0 +1,5 @@
+level_scripts:
+  DemoLevel: "assets/scripts/DemoLevel.lua"
+
+textures:
+  TestImage: "assets/textures/TestImage.png"

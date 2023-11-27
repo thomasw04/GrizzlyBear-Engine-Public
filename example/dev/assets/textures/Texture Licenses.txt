@@ -1,0 +1,1 @@
+snowflake.png = Link: https://upload.wikimedia.org/wikipedia/commons/b/bb/Snow_flake_icon.png, License: https://creativecommons.org/licenses/by-sa/3.0/

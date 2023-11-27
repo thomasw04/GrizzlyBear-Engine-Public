@@ -1,0 +1,5 @@
+[Project]
+EnvironmentType = Production
+ProjectName = TestProject
+ContentDirectory = content
+ConfigDirectory = config

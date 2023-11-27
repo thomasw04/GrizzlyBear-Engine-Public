@@ -1,8 +1,0 @@
-boost-test
-boost-filesystem
-boost-preprocessor
-boost-thread
-boost-program-options
-glm
-nlohmann-json
-spdlog

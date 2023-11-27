@@ -6,6 +6,13 @@
 bin-int/
 profiling/
 
+build/
+env/
+
+GrizzlyCore/bindings
+
+CMakeUserPresets.json
+
 *.log
 
 #Visual Studio specific file ignore
@@ -31,7 +38,6 @@ GrizzlyBear.xcworkspace/
 .idea/
 **.cmake
 cmake-build-debug/
-CMakeLists.txt
 .vscode/
 
 Makefile

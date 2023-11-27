@@ -1,3 +1,0 @@
--windows - beta1
--linux - beta1
--macos - alpha15
